@@ -1,0 +1,24 @@
+Portada
+
+Sobre mi
+	cv
+	competencias
+	aptitudes
+
+Proyectos
+	proyecto 1
+		Descripcion
+		imagenes
+		enlaces
+
+	proyecto 2
+		Descripcion
+		imagenes
+		enlaces
+
+	...
+
+Contacto
+	tlf
+	correo
+	RRSS
