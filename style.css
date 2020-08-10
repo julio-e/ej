@@ -17,7 +17,7 @@ p{
     padding-left: 1em;
     background-color: darkgray;
     position: absolute;
-    z-index: 1;
+    z-index: 5;
     top: 84px;
     width: 100%;
 }
@@ -34,7 +34,7 @@ p{
     padding-top: 6em;
     padding-bottom: 1em;
     width: 100%;
-    background-color: #00DDE0;
+    background-color: #E5D100;
 }
 
 #logo{
@@ -65,7 +65,8 @@ p{
 
 #sobreMi{
     padding-top: 0.5em;
-    
+    color: white;
+    background-color: grey;
 }
 
 #tabs{
@@ -79,7 +80,7 @@ p{
 
 .nav-item{
     border: solid 3px black;
-    border-radius: 10%;
+    background-color: #D7D702;
     
 }
 
@@ -98,13 +99,15 @@ p{
 .card-accordion{
     margin: 1em;
     text-align: center;
-    background-color: white;
+    background-color: #D7D702;
     border: solid 3px black;
     
     box-shadow: 0px 3px 10px black;
 }
 
-
+.tab-content button{
+    color: #003975;
+}
 
 .card-body-collapse{
     display: flex;
@@ -118,6 +121,10 @@ p{
     padding-top: 1em;
 }
 
+.card-text{
+    color:black;
+}
+
 .content-list{
     width: 50%;
     margin: auto;
@@ -127,14 +134,15 @@ p{
 
 .content-list ul{
     margin-top: 1em;
-    border-radius: 50%;
+    
     
 }
 
 .content-list li{
-    border-radius: 10%;
+    background-color: #D7D702;
     margin: 0.2em;
     box-shadow: 3px 3px 5px black;
+    color: black;
 }
 
 .carousel{
@@ -146,15 +154,11 @@ p{
     text-align: center;
 }
 
-#sobreMi{
-    background-color: #00B4C9;
-    padding-bottom: 1em;
-    
-}
+
 
 
 #proyectos{
-    background-color: #00DDE0;
+    background-color: #E5D100;
     padding: 1em;
     
 }
@@ -166,6 +170,7 @@ p{
 }
 
 .carousel-caption{
+    z-index: 1;
     background-color: rgba(20,20,20,0.7);
     box-shadow: 0px 5px 5px black;
     width: 100%;
@@ -184,13 +189,10 @@ p{
 }
 
 #contacto{
-    background-color: #00B4C9;
+    background-color: gray;
+    color: white;
     padding-bottom: 1em;
     text-align: center;
-}
-
-.contactoCol{
-    margin: 1em;
 }
 
 .icono{
@@ -207,5 +209,11 @@ p{
     text-align: center;
     width: 100%;
     position: absolute;
+    
+}
+
+#contacto a{
+    text-decoration: underline;
+    color: #0D0D0D;
     
 }
